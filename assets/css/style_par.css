@@ -11,7 +11,7 @@ div#parallax-bg-1{
   top: 0;
   left: 50%; 
   margin-left: -600px; 
-  z-index: 1;
+  /*z-index: 1;*/
 }
 /* background middle layer*/
 div#parallax-bg-2{
@@ -20,7 +20,7 @@ div#parallax-bg-2{
   top: 0;
   left: 50%; 
   margin-left: -600px; 
-  z-index: 2;
+  /*z-index: 2;*/
 }
 /* background layer */
 div#parallax-bg-3{
@@ -29,7 +29,7 @@ div#parallax-bg-3{
   top: 0;
   left: 50%; 
   margin-left: -470px; 
-  z-index: 3;
+  /*z-index: 3;*/
 }
 /* foreground */
 div#parallax-bg-3 div{
