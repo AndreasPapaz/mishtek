@@ -1,3 +1,9 @@
+$(document).on('ready', function() {
+  console.log('hi');
+})
+
+
+
 jQuery(function($) {
 
   var html = $('html');

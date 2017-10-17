@@ -2,8 +2,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 	min-height: 100%;
-	font-family: 'Helvetica Neue', sans-serif;
-  overflow-x: hidden;
+	/*font-family: 'Helvetica Neue', sans-serif;*/
+	font-family: 'Modak', cursive;
+  	overflow-x: hidden;
 }
 
 
@@ -33,12 +34,19 @@ h2 {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	
+
 	height: auto;
-  padding: 33% 0;
+	padding: 33% 0;
 }
 #section-one {
 	background: #73d2e5;
+}
+#section-one h2 {
+	background: url('../images/2.jpg') no-repeat;
+	background-size: 100%;
+	opacity: 0.8;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #section-two {
 	background: #57b8d9;
