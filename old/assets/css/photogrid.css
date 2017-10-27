@@ -1,0 +1,7 @@
+.photo_block {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -50;
+	margin-left: -100;
+}
