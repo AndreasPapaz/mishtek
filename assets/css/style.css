@@ -463,7 +463,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(../images/header-bg.jpg) no-repeat center top fixed;
+    /*background: url(../images/header-bg.jpg) no-repeat center top fixed;*/
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -575,49 +575,6 @@ textarea::-ms-input-placeholder
     background:#222222;
 }
 
-/*For Experience Section*/
-
-.experience{
-    background: url(../images/city.jpg) no-repeat center top fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    overflow: hidden;
-}
-.experience-wrapper{
-    margin-top:30px;
-}
-.experience-content{
-    background: rgba(79, 50, 68, .7);
-    padding:60px 40px;
-    color:#fff;
-}
-.experience-content h4{
-    color:#fff;
-    text-transform:uppercase;
-    font-size:26px;
-    font-family: "Raleway Webfont";
-    font-weight:600;
-    margin-bottom:50px;
-}
-.experience-content .content-details h5{
-    color:#fff;
-    font-size:18px;
-}
-.experience-content .content-details h6{
-    color:#ecf0f2;
-    font-size:16px;
-}
-.experience-content .content-details p{
-    color:#ecf0f2;
-}
-.experience-content .content-details.content-border{
-    border-bottom:1px solid #dadada;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-}
 
 
 /* For Portfolio Section*/
@@ -665,7 +622,7 @@ textarea::-ms-input-placeholder
 /*For Contact Section*/
 
 .contact{
-    background: url(../images/contact2.jpg) no-repeat center top fixed;
+    /*background: url(../images/contact2.jpg) no-repeat center top fixed;*/
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -1059,4 +1016,34 @@ Main components
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     transition-delay: 0s;
+}
+
+
+/* -------------------------------- 
+
+Andreas CSS STYLES
+
+-------------------------------- */
+
+
+#block_image img{
+   width: 600px !important;
+   height: 350px !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+
+.overlay_topic {
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    padding: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
